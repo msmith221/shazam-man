@@ -11,5 +11,12 @@ namespace ShazamExample1
         public List<Song> SongList;
         public List<Activity> ActivityList;
         public List<Artist> ArtistList;
+        public List<Release> ReleaseList;
+
+        public Playlist()
+        {
+            Console.WriteLine("Playlist started.");
+            ReleaseList = new List<Release>();
+        }
     }
 }
